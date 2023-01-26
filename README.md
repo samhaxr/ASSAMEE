@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/badge/release-v1.0.0-brightgreen?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/releases/tag/v1.0.0)
+[![GitHub release](https://img.shields.io/badge/release-v1.1.0-brightgreen?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/releases/tag/v1.1.0)
 [![GitHub stars](https://img.shields.io/github/stars/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/network)
 [![GitHub issues](https://img.shields.io/github/issues/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/issues)

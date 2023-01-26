@@ -58,8 +58,8 @@ DecLoad(){
         size=$(jq .data.file.metadata.size.readable ${logdir}/anonx | sed 's/"//g')
         status=$(jq .status ${logdir}/anonx | sed 's/"//g'); err=$(jq .error.message ${logdir}/anonx \
         | sed 's/"//g');[ "${status}" = "false" ]&& echo "\033[01;31m[!]\033[0m $err_str" && main;
-        link=$(curl -s https://anonfiles.com/${id}/ | grep "${name}" | grep "href" | sed -E \
-        's/.*(http[^"]*)".*/\1/g'); echo "\033[01;32m[+]\033[0m Status: Found";
+        link=$(curl -s https://anonfiles.com/${id}/ | grep -o 'href="[^"]*\.samhax"' | sed 's/href=//g' | sed 's/"//g'); 
+	echo "\033[01;32m[+]\033[0m Status: Found";
         echo "\033[01;33m[-]\033[0m Name: ${name}"; echo "\033[01;33m[-]\033[0m Size: ${size}\n";
         read -r -p "Download file? [y/N] " response;
         [ "$response" = "N" ] || [ "$response" = "n" ]&& main;[ -z "${response}" ]&& main;

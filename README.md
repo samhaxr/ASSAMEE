@@ -1,3 +1,12 @@
+[![GitHub release](https://img.shields.io/badge/release-v1.0.0-brightgreen?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/releases/tag/v1.0.0)
+[![GitHub stars](https://img.shields.io/github/stars/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/network)
+[![GitHub issues](https://img.shields.io/github/issues/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/pulls)
+[![GitHub watch](https://img.shields.io/github/watchers/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/watch)
+[![GitHub license](https://img.shields.io/github/license/samhaxr/ASSAMEE?style=plastic&logo=appveyor)](https://github.com/samhaxr/ASSAMEE/blob/main/LICENSE)
+
+
 # ASSAMEE
 ASSAMEE is a free Advance encryptor for Anonfiles. It uses an advanced encryption method to encrypt the directory with AES-256. The data will store on anonfiles.com in an encrypted format. The ASSAMEE requires a download ID to download and decrypt the data from Anonfiles. Downloading encrypted data directly from anon files via a browser will not work. 
 
